@@ -1,0 +1,837 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.image.*?>
+<?import javafx.geometry.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<AnchorPane maxHeight="600.0" prefHeight="600.0" prefWidth="1200.0" styleClass="background" stylesheets="@styles.css" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1">
+    <opaqueInsets>
+        <Insets />
+    </opaqueInsets>
+    <children>
+        <GridPane fx:id="gridPane">
+            <columnConstraints>
+                <ColumnConstraints hgrow="NEVER" minWidth="50.0" prefWidth="50.0" />
+                <ColumnConstraints hgrow="NEVER" minWidth="50.0" prefWidth="50.0" />
+                <ColumnConstraints hgrow="NEVER" minWidth="50.0" prefWidth="50.0" />
+                <ColumnConstraints hgrow="NEVER" minWidth="50.0" prefWidth="50.0" />
+                <ColumnConstraints hgrow="NEVER" minWidth="50.0" prefWidth="50.0" />
+                <ColumnConstraints hgrow="NEVER" minWidth="50.0" prefWidth="50.0" />
+                <ColumnConstraints hgrow="NEVER" minWidth="50.0" prefWidth="50.0" />
+                <ColumnConstraints hgrow="NEVER" minWidth="50.0" prefWidth="50.0" />
+                <ColumnConstraints hgrow="NEVER" minWidth="50.0" prefWidth="50.0" />
+                <ColumnConstraints hgrow="NEVER" minWidth="50.0" prefWidth="50.0" />
+                <ColumnConstraints hgrow="NEVER" minWidth="50.0" prefWidth="50.0" />
+                <ColumnConstraints hgrow="NEVER" minWidth="50.0" prefWidth="50.0" />
+                <ColumnConstraints hgrow="NEVER" minWidth="50.0" prefWidth="50.0" />
+                <ColumnConstraints hgrow="NEVER" minWidth="50.0" prefWidth="50.0" />
+                <ColumnConstraints hgrow="NEVER" minWidth="50.0" prefWidth="50.0" />
+                <ColumnConstraints hgrow="NEVER" minWidth="50.0" prefWidth="50.0" />
+                <ColumnConstraints hgrow="NEVER" minWidth="50.0" prefWidth="50.0" />
+                <ColumnConstraints hgrow="NEVER" minWidth="50.0" prefWidth="50.0" />
+            </columnConstraints>
+            <rowConstraints>
+                <RowConstraints minHeight="50.0" prefHeight="50.0" vgrow="NEVER" />
+                <RowConstraints minHeight="50.0" prefHeight="50.0" vgrow="NEVER" />
+                <RowConstraints minHeight="50.0" prefHeight="50.0" vgrow="NEVER" />
+                <RowConstraints minHeight="50.0" prefHeight="50.0" vgrow="NEVER" />
+                <RowConstraints minHeight="50.0" prefHeight="50.0" vgrow="NEVER" />
+                <RowConstraints minHeight="50.0" prefHeight="50.0" vgrow="NEVER" />
+                <RowConstraints minHeight="50.0" prefHeight="50.0" vgrow="NEVER" />
+                <RowConstraints minHeight="50.0" prefHeight="50.0" vgrow="NEVER" />
+                <RowConstraints minHeight="50.0" prefHeight="50.0" vgrow="NEVER" />
+                <RowConstraints minHeight="50.0" prefHeight="50.0" vgrow="NEVER" />
+                <RowConstraints minHeight="50.0" prefHeight="50.0" vgrow="NEVER" />
+                <RowConstraints minHeight="50.0" prefHeight="50.0" vgrow="NEVER" />
+                <RowConstraints minHeight="50.0" prefHeight="50.0" vgrow="NEVER" />
+            </rowConstraints>
+        <children>
+            <ImageView fitHeight="50.0" fitWidth="50.0" pickOnBounds="true" preserveRatio="true" GridPane.columnIndex="0" GridPane.rowIndex="0" />
+            <ImageView fitHeight="50.0" fitWidth="50.0" pickOnBounds="true" preserveRatio="true" GridPane.columnIndex="1" GridPane.rowIndex="0">
+                <image>
+                    <Image url="@grassTile2.png" />
+                </image></ImageView>
+            <ImageView fitHeight="50.0" fitWidth="50.0" pickOnBounds="true" preserveRatio="true" GridPane.columnIndex="2" GridPane.rowIndex="0">
+                <image>
+                    <Image url="@grassTile2.png" />
+                </image></ImageView>
+            <ImageView fitHeight="50.0" fitWidth="50.0" pickOnBounds="true" preserveRatio="true" GridPane.columnIndex="3" GridPane.rowIndex="0">
+                <image>
+                    <Image url="@grassTile3.png" />
+                </image></ImageView>
+            <ImageView fitHeight="50.0" fitWidth="50.0" pickOnBounds="true" preserveRatio="true" GridPane.columnIndex="4" GridPane.rowIndex="0">
+                <image>
+                    <Image url="@grassTile1.png" />
+                </image></ImageView>
+            <ImageView fitHeight="50.0" fitWidth="50.0" pickOnBounds="true" preserveRatio="true" GridPane.columnIndex="5" GridPane.rowIndex="0">
+                <image>
+                    <Image url="@grassTile1.png" />
+                </image></ImageView>
+            <ImageView fitHeight="50.0" fitWidth="50.0" pickOnBounds="true" preserveRatio="true" GridPane.columnIndex="6" GridPane.rowIndex="0">
+                <image>
+                    <Image url="@grassTile3.png" />
+                </image></ImageView>
+            <ImageView fitHeight="50.0" fitWidth="50.0" pickOnBounds="true" preserveRatio="true" GridPane.columnIndex="7" GridPane.rowIndex="0">
+                <image>
+                    <Image url="@grassTile1.png" />
+                </image></ImageView>
+            <ImageView fitHeight="50.0" fitWidth="50.0" pickOnBounds="true" preserveRatio="true" GridPane.columnIndex="8" GridPane.rowIndex="0">
+                <image>
+                    <Image url="@grassTile2.png" />
+                </image></ImageView>
+            <ImageView fitHeight="50.0" fitWidth="50.0" pickOnBounds="true" preserveRatio="true" GridPane.columnIndex="9" GridPane.rowIndex="0">
+                <image>
+                    <Image url="@grassTile1.png" />
+                </image></ImageView>
+            <ImageView fitHeight="50.0" fitWidth="50.0" pickOnBounds="true" preserveRatio="true" GridPane.columnIndex="10" GridPane.rowIndex="0">
+                <image>
+                    <Image url="@grassTile2.png" />
+                </image></ImageView>
+            <ImageView fitHeight="50.0" fitWidth="50.0" pickOnBounds="true" preserveRatio="true" GridPane.columnIndex="11" GridPane.rowIndex="0">
+                <image>
+                    <Image url="@grassTile2.png" />
+                </image></ImageView>
+            <ImageView fitHeight="50.0" fitWidth="50.0" pickOnBounds="true" preserveRatio="true" GridPane.columnIndex="12" GridPane.rowIndex="0">
+                <image>
+                    <Image url="@grassTile3.png" />
+                </image></ImageView>
+            <ImageView fitHeight="50.0" fitWidth="50.0" pickOnBounds="true" preserveRatio="true" GridPane.columnIndex="13" GridPane.rowIndex="0">
+                <image>
+                    <Image url="@grassTile2.png" />
+                </image></ImageView>
+            <ImageView fitHeight="50.0" fitWidth="50.0" pickOnBounds="true" preserveRatio="true" GridPane.columnIndex="14" GridPane.rowIndex="0">
+                <image>
+                    <Image url="@grassTile2.png" />
+                </image></ImageView>
+            <ImageView fitHeight="50.0" fitWidth="50.0" pickOnBounds="true" preserveRatio="true" GridPane.columnIndex="15" GridPane.rowIndex="0">
+                <image>
+                    <Image url="@grassTile3.png" />
+                </image></ImageView>
+            <ImageView fitHeight="50.0" fitWidth="50.0" pickOnBounds="true" preserveRatio="true" GridPane.columnIndex="16" GridPane.rowIndex="0">
+                <image>
+                    <Image url="@grassTile1.png" />
+                </image></ImageView>
+            <ImageView fitHeight="50.0" fitWidth="50.0" pickOnBounds="true" preserveRatio="true" GridPane.columnIndex="17" GridPane.rowIndex="0">
+                <image>
+                    <Image url="@grassTile2.png" />
+                </image></ImageView>
+            <ImageView fitHeight="50.0" fitWidth="50.0" pickOnBounds="true" preserveRatio="true" GridPane.columnIndex="0" GridPane.rowIndex="1">
+                <image>
+                    <Image url="@grassTile2.png" />
+                </image></ImageView>
+            <ImageView fitHeight="50.0" fitWidth="50.0" pickOnBounds="true" preserveRatio="true" GridPane.columnIndex="17" GridPane.rowIndex="1">
+                <image>
+                    <Image url="@grassTile3.png" />
+                </image></ImageView>
+            <ImageView fitHeight="50.0" fitWidth="50.0" pickOnBounds="true" preserveRatio="true" GridPane.columnIndex="0" GridPane.rowIndex="2">
+                <image>
+                    <Image url="@grassTile1.png" />
+                </image></ImageView>
+            <ImageView fitHeight="50.0" fitWidth="50.0" pickOnBounds="true" preserveRatio="true" GridPane.columnIndex="2" GridPane.rowIndex="2">
+                <image>
+                    <Image url="@grassTile1.png" />
+                </image></ImageView>
+            <ImageView fitHeight="50.0" fitWidth="50.0" pickOnBounds="true" preserveRatio="true" GridPane.columnIndex="3" GridPane.rowIndex="2">
+                <image>
+                    <Image url="@grassTile1.png" />
+                </image></ImageView>
+            <ImageView fitHeight="50.0" fitWidth="50.0" pickOnBounds="true" preserveRatio="true" GridPane.columnIndex="4" GridPane.rowIndex="2">
+                <image>
+                    <Image url="@grassTile1.png" />
+                </image></ImageView>
+            <ImageView fitHeight="50.0" fitWidth="50.0" pickOnBounds="true" preserveRatio="true" GridPane.columnIndex="5" GridPane.rowIndex="2">
+                <image>
+                    <Image url="@grassTile3.png" />
+                </image></ImageView>
+            <ImageView fitHeight="50.0" fitWidth="50.0" pickOnBounds="true" preserveRatio="true" GridPane.columnIndex="6" GridPane.rowIndex="2">
+                <image>
+                    <Image url="@grassTile3.png" />
+                </image></ImageView>
+            <ImageView fitHeight="50.0" fitWidth="50.0" pickOnBounds="true" preserveRatio="true" GridPane.columnIndex="7" GridPane.rowIndex="2">
+                <image>
+                    <Image url="@grassTile2.png" />
+                </image></ImageView>
+            <ImageView fitHeight="50.0" fitWidth="50.0" pickOnBounds="true" preserveRatio="true" GridPane.columnIndex="8" GridPane.rowIndex="2">
+                <image>
+                    <Image url="@grassTile1.png" />
+                </image></ImageView>
+            <ImageView fitHeight="50.0" fitWidth="50.0" pickOnBounds="true" preserveRatio="true" GridPane.columnIndex="9" GridPane.rowIndex="2">
+                <image>
+                    <Image url="@grassTile3.png" />
+                </image></ImageView>
+            <ImageView fitHeight="50.0" fitWidth="50.0" pickOnBounds="true" preserveRatio="true" GridPane.columnIndex="10" GridPane.rowIndex="2">
+                <image>
+                    <Image url="@grassTile2.png" />
+                </image></ImageView>
+            <ImageView fitHeight="50.0" fitWidth="50.0" pickOnBounds="true" preserveRatio="true" GridPane.columnIndex="11" GridPane.rowIndex="2">
+                <image>
+                    <Image url="@grassTile1.png" />
+                </image></ImageView>
+            <ImageView fitHeight="50.0" fitWidth="50.0" pickOnBounds="true" preserveRatio="true" GridPane.columnIndex="12" GridPane.rowIndex="2">
+                <image>
+                    <Image url="@grassTile2.png" />
+                </image></ImageView>
+            <ImageView fitHeight="50.0" fitWidth="50.0" pickOnBounds="true" preserveRatio="true" GridPane.columnIndex="13" GridPane.rowIndex="2">
+                <image>
+                    <Image url="@grassTile1.png" />
+                </image></ImageView>
+            <ImageView fitHeight="50.0" fitWidth="50.0" pickOnBounds="true" preserveRatio="true" GridPane.columnIndex="14" GridPane.rowIndex="2">
+                <image>
+                    <Image url="@grassTile1.png" />
+                </image></ImageView>
+            <ImageView fitHeight="50.0" fitWidth="50.0" pickOnBounds="true" preserveRatio="true" GridPane.columnIndex="15" GridPane.rowIndex="2">
+                <image>
+                    <Image url="@grassTile1.png" />
+                </image></ImageView>
+            <ImageView fitHeight="50.0" fitWidth="50.0" pickOnBounds="true" preserveRatio="true" GridPane.columnIndex="17" GridPane.rowIndex="2">
+                <image>
+                    <Image url="@grassTile2.png" />
+                </image></ImageView>
+            <ImageView fitHeight="50.0" fitWidth="50.0" pickOnBounds="true" preserveRatio="true" GridPane.columnIndex="0" GridPane.rowIndex="3">
+                <image>
+                    <Image url="@grassTile1.png" />
+                </image></ImageView>
+            <ImageView fitHeight="50.0" fitWidth="50.0" pickOnBounds="true" preserveRatio="true" GridPane.columnIndex="2" GridPane.rowIndex="3">
+                <image>
+                    <Image url="@grassTile3.png" />
+                </image></ImageView>
+            <ImageView fitHeight="50.0" fitWidth="50.0" pickOnBounds="true" preserveRatio="true" GridPane.columnIndex="3" GridPane.rowIndex="3">
+                <image>
+                    <Image url="@grassTile2.png" />
+                </image></ImageView>
+            <ImageView fitHeight="50.0" fitWidth="50.0" pickOnBounds="true" preserveRatio="true" GridPane.columnIndex="4" GridPane.rowIndex="3">
+                <image>
+                    <Image url="@grassTile1.png" />
+                </image></ImageView>
+            <ImageView fitHeight="50.0" fitWidth="50.0" pickOnBounds="true" preserveRatio="true" GridPane.columnIndex="5" GridPane.rowIndex="3">
+                <image>
+                    <Image url="@grassTile2.png" />
+                </image></ImageView>
+            <ImageView fitHeight="50.0" fitWidth="50.0" pickOnBounds="true" preserveRatio="true" GridPane.columnIndex="6" GridPane.rowIndex="3">
+                <image>
+                    <Image url="@grassTile3.png" />
+                </image></ImageView>
+            <ImageView fitHeight="50.0" fitWidth="50.0" pickOnBounds="true" preserveRatio="true" GridPane.columnIndex="7" GridPane.rowIndex="3">
+                <image>
+                    <Image url="@grassTile1.png" />
+                </image></ImageView>
+            <ImageView fitHeight="50.0" fitWidth="50.0" pickOnBounds="true" preserveRatio="true" GridPane.columnIndex="8" GridPane.rowIndex="3">
+                <image>
+                    <Image url="@grassTile2.png" />
+                </image></ImageView>
+            <ImageView fitHeight="50.0" fitWidth="50.0" pickOnBounds="true" preserveRatio="true" GridPane.columnIndex="9" GridPane.rowIndex="3">
+                <image>
+                    <Image url="@grassTile2.png" />
+                </image></ImageView>
+            <ImageView fitHeight="50.0" fitWidth="50.0" pickOnBounds="true" preserveRatio="true" GridPane.columnIndex="10" GridPane.rowIndex="3">
+                <image>
+                    <Image url="@grassTile1.png" />
+                </image></ImageView>
+            <ImageView fitHeight="50.0" fitWidth="50.0" pickOnBounds="true" preserveRatio="true" GridPane.columnIndex="11" GridPane.rowIndex="3">
+                <image>
+                    <Image url="@grassTile1.png" />
+                </image></ImageView>
+            <ImageView fitHeight="50.0" fitWidth="50.0" pickOnBounds="true" preserveRatio="true" GridPane.columnIndex="12" GridPane.rowIndex="3">
+                <image>
+                    <Image url="@grassTile2.png" />
+                </image></ImageView>
+            <ImageView fitHeight="50.0" fitWidth="50.0" pickOnBounds="true" preserveRatio="true" GridPane.columnIndex="13" GridPane.rowIndex="3">
+                <image>
+                    <Image url="@grassTile2.png" />
+                </image></ImageView>
+            <ImageView fitHeight="50.0" fitWidth="50.0" pickOnBounds="true" preserveRatio="true" GridPane.columnIndex="14" GridPane.rowIndex="3">
+                <image>
+                    <Image url="@grassTile1.png" />
+                </image></ImageView>
+            <ImageView fitHeight="50.0" fitWidth="50.0" pickOnBounds="true" preserveRatio="true" GridPane.columnIndex="15" GridPane.rowIndex="3">
+                <image>
+                    <Image url="@grassTile1.png" />
+                </image></ImageView>
+            <ImageView fitHeight="50.0" fitWidth="50.0" pickOnBounds="true" preserveRatio="true" GridPane.columnIndex="17" GridPane.rowIndex="3">
+                <image>
+                    <Image url="@grassTile1.png" />
+                </image></ImageView>
+            <ImageView fitHeight="50.0" fitWidth="50.0" pickOnBounds="true" preserveRatio="true" GridPane.columnIndex="0" GridPane.rowIndex="4">
+                <image>
+                    <Image url="@grassTile3.png" />
+                </image></ImageView>
+            <ImageView fitHeight="50.0" fitWidth="50.0" pickOnBounds="true" preserveRatio="true" GridPane.columnIndex="2" GridPane.rowIndex="4">
+                <image>
+                    <Image url="@grassTile1.png" />
+                </image></ImageView>
+            <ImageView fitHeight="50.0" fitWidth="50.0" pickOnBounds="true" preserveRatio="true" GridPane.columnIndex="3" GridPane.rowIndex="4">
+                <image>
+                    <Image url="@grassTile1.png" />
+                </image></ImageView>
+            <ImageView fitHeight="50.0" fitWidth="50.0" pickOnBounds="true" preserveRatio="true" GridPane.columnIndex="14" GridPane.rowIndex="4">
+                <image>
+                    <Image url="@grassTile3.png" />
+                </image></ImageView>
+            <ImageView fitHeight="50.0" fitWidth="50.0" pickOnBounds="true" preserveRatio="true" GridPane.columnIndex="15" GridPane.rowIndex="4">
+                <image>
+                    <Image url="@grassTile2.png" />
+                </image></ImageView>
+            <ImageView fitHeight="50.0" fitWidth="50.0" pickOnBounds="true" preserveRatio="true" GridPane.columnIndex="17" GridPane.rowIndex="4">
+                <image>
+                    <Image url="@grassTile1.png" />
+                </image></ImageView>
+            <ImageView fitHeight="50.0" fitWidth="50.0" pickOnBounds="true" preserveRatio="true" GridPane.rowIndex="5">
+                <image>
+                    <Image url="@grassTile1.png" />
+                </image></ImageView>
+            <ImageView fitHeight="50.0" fitWidth="50.0" pickOnBounds="true" preserveRatio="true" GridPane.columnIndex="2" GridPane.rowIndex="5">
+                <image>
+                    <Image url="@grassTile1.png" />
+                </image></ImageView>
+            <ImageView fitHeight="50.0" fitWidth="50.0" pickOnBounds="true" preserveRatio="true" GridPane.columnIndex="3" GridPane.rowIndex="5">
+                <image>
+                    <Image url="@grassTile3.png" />
+                </image></ImageView>
+            <ImageView fitHeight="50.0" fitWidth="50.0" pickOnBounds="true" preserveRatio="true" GridPane.columnIndex="5" GridPane.rowIndex="5">
+                <image>
+                    <Image url="@grassTile1.png" />
+                </image></ImageView>
+            <ImageView fitHeight="50.0" fitWidth="50.0" pickOnBounds="true" preserveRatio="true" GridPane.columnIndex="6" GridPane.rowIndex="5">
+                <image>
+                    <Image url="@waterTile1.png" />
+                </image></ImageView>
+            <ImageView fitHeight="50.0" fitWidth="50.0" pickOnBounds="true" preserveRatio="true" GridPane.columnIndex="7" GridPane.rowIndex="5">
+                <image>
+                    <Image url="@waterTile3.png" />
+                </image></ImageView>
+            <ImageView fitHeight="50.0" fitWidth="50.0" pickOnBounds="true" preserveRatio="true" GridPane.columnIndex="8" GridPane.rowIndex="5">
+                <image>
+                    <Image url="@waterTile3.png" />
+                </image></ImageView>
+            <ImageView fitHeight="50.0" fitWidth="50.0" pickOnBounds="true" preserveRatio="true" GridPane.columnIndex="9" GridPane.rowIndex="5">
+                <image>
+                    <Image url="@waterTile3.png" />
+                </image></ImageView>
+            <ImageView fitHeight="50.0" fitWidth="50.0" pickOnBounds="true" preserveRatio="true" GridPane.columnIndex="10" GridPane.rowIndex="5">
+                <image>
+                    <Image url="@waterTile3.png" />
+                </image></ImageView>
+            <ImageView fitHeight="50.0" fitWidth="50.0" pickOnBounds="true" preserveRatio="true" GridPane.columnIndex="11" GridPane.rowIndex="5">
+                <image>
+                    <Image url="@waterTile2.png" />
+                </image></ImageView>
+            <ImageView fitHeight="50.0" fitWidth="50.0" pickOnBounds="true" preserveRatio="true" GridPane.columnIndex="12" GridPane.rowIndex="5">
+                <image>
+                    <Image url="@grassTile1.png" />
+                </image></ImageView>
+            <ImageView fitHeight="50.0" fitWidth="50.0" pickOnBounds="true" preserveRatio="true" GridPane.columnIndex="14" GridPane.rowIndex="5">
+                <image>
+                    <Image url="@grassTile2.png" />
+                </image></ImageView>
+            <ImageView fitHeight="50.0" fitWidth="50.0" pickOnBounds="true" preserveRatio="true" GridPane.columnIndex="15" GridPane.rowIndex="5">
+                <image>
+                    <Image url="@grassTile3.png" />
+                </image></ImageView>
+            <ImageView fitHeight="50.0" fitWidth="50.0" pickOnBounds="true" preserveRatio="true" GridPane.columnIndex="17" GridPane.rowIndex="5">
+                <image>
+                    <Image url="@grassTile2.png" />
+                </image></ImageView>
+            <ImageView fitHeight="50.0" fitWidth="50.0" pickOnBounds="true" preserveRatio="true" GridPane.columnIndex="0" GridPane.rowIndex="6">
+                <image>
+                    <Image url="@grassTile2.png" />
+                </image></ImageView>
+            <ImageView fitHeight="50.0" fitWidth="50.0" pickOnBounds="true" preserveRatio="true" GridPane.columnIndex="2" GridPane.rowIndex="6">
+                <image>
+                    <Image url="@grassTile1.png" />
+                </image></ImageView>
+            <ImageView fitHeight="50.0" fitWidth="50.0" pickOnBounds="true" preserveRatio="true" GridPane.columnIndex="3" GridPane.rowIndex="6">
+                <image>
+                    <Image url="@grassTile1.png" />
+                </image></ImageView>
+            <ImageView fitHeight="50.0" fitWidth="50.0" pickOnBounds="true" preserveRatio="true" GridPane.columnIndex="5" GridPane.rowIndex="6">
+                <image>
+                    <Image url="@grassTile3.png" />
+                </image></ImageView>
+            <ImageView fitHeight="50.0" fitWidth="50.0" pickOnBounds="true" preserveRatio="true" GridPane.columnIndex="6" GridPane.rowIndex="6">
+                <image>
+                    <Image url="@waterTile6.png" />
+                </image></ImageView>
+            <ImageView fitHeight="50.0" fitWidth="50.0" pickOnBounds="true" preserveRatio="true" GridPane.columnIndex="7" GridPane.rowIndex="6">
+                <image>
+                    <Image url="@waterTile4.png" />
+                </image></ImageView>
+            <ImageView fitHeight="50.0" fitWidth="50.0" pickOnBounds="true" preserveRatio="true" GridPane.columnIndex="8" GridPane.rowIndex="6">
+                <image>
+                    <Image url="@waterTile4.png" />
+                </image></ImageView>
+            <ImageView fitHeight="50.0" fitWidth="50.0" pickOnBounds="true" preserveRatio="true" GridPane.columnIndex="9" GridPane.rowIndex="6">
+                <image>
+                    <Image url="@waterTile4.png" />
+                </image></ImageView>
+            <ImageView fitHeight="50.0" fitWidth="50.0" pickOnBounds="true" preserveRatio="true" GridPane.columnIndex="10" GridPane.rowIndex="6">
+                <image>
+                    <Image url="@waterTile4.png" />
+                </image></ImageView>
+            <ImageView fitHeight="50.0" fitWidth="50.0" pickOnBounds="true" preserveRatio="true" GridPane.columnIndex="11" GridPane.rowIndex="6">
+                <image>
+                    <Image url="@waterTile5.png" />
+                </image></ImageView>
+            <ImageView fitHeight="50.0" fitWidth="50.0" pickOnBounds="true" preserveRatio="true" GridPane.columnIndex="12" GridPane.rowIndex="6">
+                <image>
+                    <Image url="@grassTile1.png" />
+                </image></ImageView>
+            <ImageView fitHeight="50.0" fitWidth="50.0" pickOnBounds="true" preserveRatio="true" GridPane.columnIndex="14" GridPane.rowIndex="6">
+                <image>
+                    <Image url="@grassTile1.png" />
+                </image></ImageView>
+            <ImageView fitHeight="50.0" fitWidth="50.0" pickOnBounds="true" preserveRatio="true" GridPane.columnIndex="15" GridPane.rowIndex="6">
+                <image>
+                    <Image url="@grassTile2.png" />
+                </image></ImageView>
+            <ImageView fitHeight="50.0" fitWidth="50.0" pickOnBounds="true" preserveRatio="true" GridPane.columnIndex="16" GridPane.rowIndex="6" />
+            <ImageView fitHeight="50.0" fitWidth="50.0" pickOnBounds="true" preserveRatio="true" GridPane.columnIndex="17" GridPane.rowIndex="6">
+                <image>
+                    <Image url="@grassTile3.png" />
+                </image></ImageView>
+            <ImageView fitHeight="50.0" fitWidth="50.0" pickOnBounds="true" preserveRatio="true" GridPane.rowIndex="7">
+                <image>
+                    <Image url="@grassTile3.png" />
+                </image></ImageView>
+            <ImageView fitHeight="50.0" fitWidth="50.0" pickOnBounds="true" preserveRatio="true" GridPane.columnIndex="2" GridPane.rowIndex="7">
+                <image>
+                    <Image url="@grassTile3.png" />
+                </image></ImageView>
+            <ImageView fitHeight="50.0" fitWidth="50.0" pickOnBounds="true" preserveRatio="true" GridPane.columnIndex="3" GridPane.rowIndex="7">
+                <image>
+                    <Image url="@grassTile1.png" />
+                </image></ImageView>
+            <ImageView fitHeight="50.0" fitWidth="50.0" pickOnBounds="true" preserveRatio="true" GridPane.columnIndex="5" GridPane.rowIndex="7">
+                <image>
+                    <Image url="@grassTile3.png" />
+                </image></ImageView>
+            <ImageView fitHeight="50.0" fitWidth="50.0" pickOnBounds="true" preserveRatio="true" GridPane.columnIndex="6" GridPane.rowIndex="7">
+                <image>
+                    <Image url="@waterTile7.png" />
+                </image></ImageView>
+            <ImageView fitHeight="50.0" fitWidth="50.0" pickOnBounds="true" preserveRatio="true" GridPane.columnIndex="7" GridPane.rowIndex="7">
+                <image>
+                    <Image url="@waterTile8.png" />
+                </image></ImageView>
+            <ImageView fitHeight="50.0" fitWidth="50.0" pickOnBounds="true" preserveRatio="true" GridPane.columnIndex="8" GridPane.rowIndex="7">
+                <image>
+                    <Image url="@waterTile8.png" />
+                </image></ImageView>
+            <ImageView fitHeight="50.0" fitWidth="50.0" pickOnBounds="true" preserveRatio="true" GridPane.columnIndex="9" GridPane.rowIndex="7">
+                <image>
+                    <Image url="@waterTile8.png" />
+                </image></ImageView>
+            <ImageView fitHeight="50.0" fitWidth="50.0" pickOnBounds="true" preserveRatio="true" GridPane.columnIndex="10" GridPane.rowIndex="7">
+                <image>
+                    <Image url="@waterTile8.png" />
+                </image></ImageView>
+            <ImageView fitHeight="50.0" fitWidth="50.0" pickOnBounds="true" preserveRatio="true" GridPane.columnIndex="11" GridPane.rowIndex="7">
+                <image>
+                    <Image url="@waterTile9.png" />
+                </image></ImageView>
+            <ImageView fitHeight="50.0" fitWidth="50.0" pickOnBounds="true" preserveRatio="true" GridPane.columnIndex="12" GridPane.rowIndex="7">
+                <image>
+                    <Image url="@grassTile3.png" />
+                </image></ImageView>
+            <ImageView fitHeight="50.0" fitWidth="50.0" pickOnBounds="true" preserveRatio="true" GridPane.columnIndex="14" GridPane.rowIndex="7">
+                <image>
+                    <Image url="@grassTile1.png" />
+                </image></ImageView>
+            <ImageView fitHeight="50.0" fitWidth="50.0" pickOnBounds="true" preserveRatio="true" GridPane.columnIndex="15" GridPane.rowIndex="7">
+                <image>
+                    <Image url="@grassTile1.png" />
+                </image></ImageView>
+            <ImageView fitHeight="50.0" fitWidth="50.0" pickOnBounds="true" preserveRatio="true" GridPane.columnIndex="17" GridPane.rowIndex="7">
+                <image>
+                    <Image url="@grassTile1.png" />
+                </image></ImageView>
+            <ImageView fitHeight="50.0" fitWidth="50.0" pickOnBounds="true" preserveRatio="true" GridPane.columnIndex="0" GridPane.rowIndex="8">
+                <image>
+                    <Image url="@grassTile3.png" />
+                </image></ImageView>
+            <ImageView fitHeight="50.0" fitWidth="50.0" pickOnBounds="true" preserveRatio="true" GridPane.columnIndex="2" GridPane.rowIndex="8">
+                <image>
+                    <Image url="@grassTile1.png" />
+                </image></ImageView>
+            <ImageView fitHeight="50.0" fitWidth="50.0" pickOnBounds="true" preserveRatio="true" GridPane.columnIndex="3" GridPane.rowIndex="8">
+                <image>
+                    <Image url="@grassTile1.png" />
+                </image></ImageView>
+            <ImageView fitHeight="50.0" fitWidth="50.0" pickOnBounds="true" preserveRatio="true" GridPane.columnIndex="11" GridPane.rowIndex="8">
+                <image>
+                    <Image url="@grassTile1.png" />
+                </image></ImageView>
+            <ImageView fitHeight="50.0" fitWidth="50.0" pickOnBounds="true" preserveRatio="true" GridPane.columnIndex="12" GridPane.rowIndex="8">
+                <image>
+                    <Image url="@grassTile2.png" />
+                </image></ImageView>
+            <ImageView fitHeight="50.0" fitWidth="50.0" pickOnBounds="true" preserveRatio="true" GridPane.columnIndex="14" GridPane.rowIndex="8">
+                <image>
+                    <Image url="@grassTile2.png" />
+                </image></ImageView>
+            <ImageView fitHeight="50.0" fitWidth="50.0" pickOnBounds="true" preserveRatio="true" GridPane.columnIndex="15" GridPane.rowIndex="8">
+                <image>
+                    <Image url="@grassTile2.png" />
+                </image></ImageView>
+            <ImageView fitHeight="50.0" fitWidth="50.0" pickOnBounds="true" preserveRatio="true" GridPane.columnIndex="17" GridPane.rowIndex="8">
+                <image>
+                    <Image url="@grassTile2.png" />
+                </image></ImageView>
+            <ImageView fitHeight="50.0" fitWidth="50.0" pickOnBounds="true" preserveRatio="true" GridPane.columnIndex="0" GridPane.rowIndex="9">
+                <image>
+                    <Image url="@grassTile1.png" />
+                </image></ImageView>
+            <ImageView fitHeight="50.0" fitWidth="50.0" pickOnBounds="true" preserveRatio="true" GridPane.columnIndex="2" GridPane.rowIndex="9">
+                <image>
+                    <Image url="@waterTile1.png" />
+                </image></ImageView>
+            <ImageView fitHeight="50.0" fitWidth="50.0" pickOnBounds="true" preserveRatio="true" GridPane.columnIndex="3" GridPane.rowIndex="9">
+                <image>
+                    <Image url="@waterTile2.png" />
+                </image></ImageView>
+            <ImageView fitHeight="50.0" fitWidth="50.0" pickOnBounds="true" preserveRatio="true" GridPane.columnIndex="4" GridPane.rowIndex="9">
+                <image>
+                    <Image url="@grassTile1.png" />
+                </image></ImageView>
+            <ImageView fitHeight="50.0" fitWidth="50.0" pickOnBounds="true" preserveRatio="true" GridPane.columnIndex="5" GridPane.rowIndex="9">
+                <image>
+                    <Image url="@grassTile3.png" />
+                </image></ImageView>
+            <ImageView fitHeight="50.0" fitWidth="50.0" pickOnBounds="true" preserveRatio="true" GridPane.columnIndex="6" GridPane.rowIndex="9">
+                <image>
+                    <Image url="@grassTile3.png" />
+                </image></ImageView>
+            <ImageView fitHeight="50.0" fitWidth="50.0" pickOnBounds="true" preserveRatio="true" GridPane.columnIndex="7" GridPane.rowIndex="9">
+                <image>
+                    <Image url="@grassTile1.png" />
+                </image></ImageView>
+            <ImageView fitHeight="50.0" fitWidth="50.0" pickOnBounds="true" preserveRatio="true" GridPane.columnIndex="8" GridPane.rowIndex="9">
+                <image>
+                    <Image url="@grassTile1.png" />
+                </image></ImageView>
+            <ImageView fitHeight="50.0" fitWidth="50.0" pickOnBounds="true" preserveRatio="true" GridPane.columnIndex="9" GridPane.rowIndex="9">
+                <image>
+                    <Image url="@grassTile1.png" />
+                </image></ImageView>
+            <ImageView fitHeight="50.0" fitWidth="50.0" pickOnBounds="true" preserveRatio="true" GridPane.columnIndex="11" GridPane.rowIndex="9">
+                <image>
+                    <Image url="@grassTile1.png" />
+                </image></ImageView>
+            <ImageView fitHeight="50.0" fitWidth="50.0" pickOnBounds="true" preserveRatio="true" GridPane.columnIndex="12" GridPane.rowIndex="9">
+                <image>
+                    <Image url="@grassTile1.png" />
+                </image></ImageView>
+            <ImageView fitHeight="50.0" fitWidth="50.0" pickOnBounds="true" preserveRatio="true" GridPane.columnIndex="14" GridPane.rowIndex="9">
+                <image>
+                    <Image url="@grassTile3.png" />
+                </image></ImageView>
+            <ImageView fitHeight="50.0" fitWidth="50.0" pickOnBounds="true" preserveRatio="true" GridPane.columnIndex="15" GridPane.rowIndex="9">
+                <image>
+                    <Image url="@grassTile1.png" />
+                </image></ImageView>
+            <ImageView fitHeight="50.0" fitWidth="50.0" pickOnBounds="true" preserveRatio="true" GridPane.columnIndex="17" GridPane.rowIndex="9">
+                <image>
+                    <Image url="@grassTile2.png" />
+                </image></ImageView>
+            <ImageView fitHeight="50.0" fitWidth="50.0" pickOnBounds="true" preserveRatio="true" GridPane.rowIndex="10">
+                <image>
+                    <Image url="@grassTile1.png" />
+                </image></ImageView>
+            <ImageView fitHeight="50.0" fitWidth="50.0" pickOnBounds="true" preserveRatio="true" GridPane.columnIndex="2" GridPane.rowIndex="10">
+                <image>
+                    <Image url="@waterTile7.png" />
+                </image></ImageView>
+            <ImageView fitHeight="50.0" fitWidth="50.0" pickOnBounds="true" preserveRatio="true" GridPane.columnIndex="3" GridPane.rowIndex="10">
+                <image>
+                    <Image url="@waterTile9.png" />
+                </image></ImageView>
+            <ImageView fitHeight="50.0" fitWidth="50.0" pickOnBounds="true" preserveRatio="true" GridPane.columnIndex="4" GridPane.rowIndex="10">
+                <image>
+                    <Image url="@grassTile2.png" />
+                </image></ImageView>
+            <ImageView fitHeight="50.0" fitWidth="50.0" pickOnBounds="true" preserveRatio="true" GridPane.columnIndex="5" GridPane.rowIndex="10">
+                <image>
+                    <Image url="@grassTile1.png" />
+                </image></ImageView>
+            <ImageView fitHeight="50.0" fitWidth="50.0" pickOnBounds="true" preserveRatio="true" GridPane.columnIndex="6" GridPane.rowIndex="10">
+                <image>
+                    <Image url="@grassTile2.png" />
+                </image></ImageView>
+            <ImageView fitHeight="50.0" fitWidth="50.0" pickOnBounds="true" preserveRatio="true" GridPane.columnIndex="7" GridPane.rowIndex="10">
+                <image>
+                    <Image url="@grassTile2.png" />
+                </image></ImageView>
+            <ImageView fitHeight="50.0" fitWidth="50.0" pickOnBounds="true" preserveRatio="true" GridPane.columnIndex="8" GridPane.rowIndex="10">
+                <image>
+                    <Image url="@grassTile1.png" />
+                </image></ImageView>
+            <ImageView fitHeight="50.0" fitWidth="50.0" pickOnBounds="true" preserveRatio="true" GridPane.columnIndex="9" GridPane.rowIndex="10">
+                <image>
+                    <Image url="@grassTile1.png" />
+                </image></ImageView>
+            <ImageView fitHeight="50.0" fitWidth="50.0" pickOnBounds="true" preserveRatio="true" GridPane.columnIndex="11" GridPane.rowIndex="10">
+                <image>
+                    <Image url="@grassTile1.png" />
+                </image></ImageView>
+            <ImageView fitHeight="50.0" fitWidth="50.0" pickOnBounds="true" preserveRatio="true" GridPane.columnIndex="12" GridPane.rowIndex="10">
+                <image>
+                    <Image url="@grassTile1.png" />
+                </image></ImageView>
+            <ImageView fitHeight="50.0" fitWidth="50.0" pickOnBounds="true" preserveRatio="true" GridPane.columnIndex="14" GridPane.rowIndex="10">
+                <image>
+                    <Image url="@grassTile2.png" />
+                </image></ImageView>
+            <ImageView fitHeight="50.0" fitWidth="50.0" pickOnBounds="true" preserveRatio="true" GridPane.columnIndex="15" GridPane.rowIndex="10">
+                <image>
+                    <Image url="@grassTile1.png" />
+                </image></ImageView>
+            <ImageView fitHeight="50.0" fitWidth="50.0" pickOnBounds="true" preserveRatio="true" GridPane.columnIndex="17" GridPane.rowIndex="10">
+                <image>
+                    <Image url="@grassTile3.png" />
+                </image></ImageView>
+            <ImageView fitHeight="50.0" fitWidth="50.0" pickOnBounds="true" preserveRatio="true" GridPane.columnIndex="0" GridPane.rowIndex="11">
+                <image>
+                    <Image url="@grassTile2.png" />
+                </image></ImageView>
+            <ImageView fitHeight="50.0" fitWidth="50.0" pickOnBounds="true" preserveRatio="true" GridPane.columnIndex="11" GridPane.rowIndex="11">
+                <image>
+                    <Image url="@grassTile1.png" />
+                </image></ImageView>
+            <ImageView fitHeight="50.0" fitWidth="50.0" pickOnBounds="true" preserveRatio="true" GridPane.columnIndex="12" GridPane.rowIndex="11">
+                <image>
+                    <Image url="@grassTile1.png" />
+                </image></ImageView>
+            <ImageView fitHeight="50.0" fitWidth="50.0" pickOnBounds="true" preserveRatio="true" GridPane.columnIndex="17" GridPane.rowIndex="11">
+                <image>
+                    <Image url="@grassTile2.png" />
+                </image></ImageView>
+            <ImageView fitHeight="50.0" fitWidth="50.0" pickOnBounds="true" preserveRatio="true" GridPane.columnIndex="0" GridPane.rowIndex="12">
+                <image>
+                    <Image url="@grassTile3.png" />
+                </image></ImageView>
+            <ImageView fitHeight="50.0" fitWidth="50.0" pickOnBounds="true" preserveRatio="true" GridPane.columnIndex="1" GridPane.rowIndex="12">
+                <image>
+                    <Image url="@grassTile2.png" />
+                </image></ImageView>
+            <ImageView fitHeight="50.0" fitWidth="50.0" pickOnBounds="true" preserveRatio="true" GridPane.columnIndex="2" GridPane.rowIndex="12">
+                <image>
+                    <Image url="@grassTile1.png" />
+                </image></ImageView>
+            <ImageView fitHeight="50.0" fitWidth="50.0" pickOnBounds="true" preserveRatio="true" GridPane.columnIndex="3" GridPane.rowIndex="12">
+                <image>
+                    <Image url="@grassTile2.png" />
+                </image></ImageView>
+            <ImageView fitHeight="50.0" fitWidth="50.0" pickOnBounds="true" preserveRatio="true" GridPane.columnIndex="4" GridPane.rowIndex="12">
+                <image>
+                    <Image url="@grassTile1.png" />
+                </image></ImageView>
+            <ImageView fitHeight="50.0" fitWidth="50.0" pickOnBounds="true" preserveRatio="true" GridPane.columnIndex="5" GridPane.rowIndex="12">
+                <image>
+                    <Image url="@grassTile3.png" />
+                </image></ImageView>
+            <ImageView fitHeight="50.0" fitWidth="50.0" pickOnBounds="true" preserveRatio="true" GridPane.columnIndex="6" GridPane.rowIndex="12">
+                <image>
+                    <Image url="@grassTile3.png" />
+                </image></ImageView>
+            <ImageView fitHeight="50.0" fitWidth="50.0" pickOnBounds="true" preserveRatio="true" GridPane.columnIndex="7" GridPane.rowIndex="12">
+                <image>
+                    <Image url="@grassTile1.png" />
+                </image></ImageView>
+            <ImageView fitHeight="50.0" fitWidth="50.0" pickOnBounds="true" preserveRatio="true" GridPane.columnIndex="8" GridPane.rowIndex="12">
+                <image>
+                    <Image url="@grassTile1.png" />
+                </image></ImageView>
+            <ImageView fitHeight="50.0" fitWidth="50.0" pickOnBounds="true" preserveRatio="true" GridPane.columnIndex="9" GridPane.rowIndex="12">
+                <image>
+                    <Image url="@grassTile1.png" />
+                </image></ImageView>
+            <ImageView fitHeight="50.0" fitWidth="50.0" pickOnBounds="true" preserveRatio="true" GridPane.columnIndex="10" GridPane.rowIndex="12">
+                <image>
+                    <Image url="@grassTile1.png" />
+                </image></ImageView>
+            <ImageView fitHeight="50.0" fitWidth="50.0" pickOnBounds="true" preserveRatio="true" GridPane.columnIndex="11" GridPane.rowIndex="12">
+                <image>
+                    <Image url="@grassTile2.png" />
+                </image></ImageView>
+            <ImageView fitHeight="50.0" fitWidth="50.0" pickOnBounds="true" preserveRatio="true" GridPane.columnIndex="12" GridPane.rowIndex="12">
+                <image>
+                    <Image url="@grassTile1.png" />
+                </image></ImageView>
+            <ImageView fitHeight="50.0" fitWidth="50.0" pickOnBounds="true" preserveRatio="true" GridPane.columnIndex="13" GridPane.rowIndex="12">
+                <image>
+                    <Image url="@grassTile1.png" />
+                </image></ImageView>
+            <ImageView fitHeight="50.0" fitWidth="50.0" pickOnBounds="true" preserveRatio="true" GridPane.columnIndex="14" GridPane.rowIndex="12">
+                <image>
+                    <Image url="@grassTile3.png" />
+                </image></ImageView>
+            <ImageView fitHeight="50.0" fitWidth="50.0" pickOnBounds="true" preserveRatio="true" GridPane.columnIndex="15" GridPane.rowIndex="12">
+                <image>
+                    <Image url="@grassTile1.png" />
+                </image></ImageView>
+            <ImageView fitHeight="50.0" fitWidth="50.0" pickOnBounds="true" preserveRatio="true" GridPane.columnIndex="16" GridPane.rowIndex="12">
+                <image>
+                    <Image url="@grassTile1.png" />
+                </image></ImageView>
+            <ImageView fitHeight="50.0" fitWidth="50.0" pickOnBounds="true" preserveRatio="true" GridPane.columnIndex="17" GridPane.rowIndex="12">
+                <image>
+                    <Image url="@grassTile2.png" />
+                </image></ImageView>
+            <ImageView fitHeight="50.0" fitWidth="50.0" pickOnBounds="true" preserveRatio="true">
+                <image>
+                    <Image url="@grassTile1.png" />
+                </image>
+            </ImageView>
+            <ImageView fitHeight="125.0" fitWidth="70.0" nodeOrientation="RIGHT_TO_LEFT" pickOnBounds="true" preserveRatio="true" GridPane.columnIndex="10" GridPane.rowIndex="6">
+                <image>
+                    <Image url="@fish1.png" />
+                </image>
+            </ImageView>
+            <ImageView fitHeight="58.0" fitWidth="77.0" pickOnBounds="true" preserveRatio="true" GridPane.columnIndex="7" GridPane.rowIndex="7">
+                <image>
+                    <Image url="@fish2.png" />
+                </image>
+            </ImageView>
+            <ImageView fitHeight="109.0" fitWidth="51.0" pickOnBounds="true" preserveRatio="true" GridPane.columnIndex="3" GridPane.rowIndex="3">
+                <image>
+                    <Image url="@greenTile1.png" />
+                </image>
+            </ImageView>
+            <ImageView fitHeight="94.0" fitWidth="150.0" pickOnBounds="true" preserveRatio="true" GridPane.columnIndex="13" GridPane.rowIndex="2">
+                <image>
+                    <Image url="@greenTile3.png" />
+                </image>
+            </ImageView>
+            <ImageView fitHeight="75.0" fitWidth="64.0" nodeOrientation="RIGHT_TO_LEFT" pickOnBounds="true" preserveRatio="true" GridPane.columnIndex="12" GridPane.rowIndex="11">
+                <image>
+                    <Image url="@greenTile3.png" />
+                </image>
+            </ImageView>
+            <ImageView fitHeight="117.0" fitWidth="51.0" nodeOrientation="RIGHT_TO_LEFT" pickOnBounds="true" preserveRatio="true" GridPane.columnIndex="15" GridPane.rowIndex="6">
+                <image>
+                    <Image url="@greenTile1.png" />
+                </image>
+            </ImageView>
+            <ImageView fitHeight="31.0" fitWidth="37.0" pickOnBounds="true" preserveRatio="true" GridPane.columnIndex="10">
+                <image>
+                    <Image url="@bee.png" />
+                </image>
+            </ImageView>
+            <ImageView fitHeight="31.0" fitWidth="37.0" nodeOrientation="RIGHT_TO_LEFT" pickOnBounds="true" preserveRatio="true" GridPane.columnIndex="7" GridPane.rowIndex="10">
+                <image>
+                    <Image url="@bee.png" />
+                </image>
+            </ImageView>
+            <ImageView fitHeight="49.0" fitWidth="52.0" pickOnBounds="true" preserveRatio="true" GridPane.columnIndex="16" GridPane.rowIndex="12">
+                <image>
+                    <Image url="@worm_walk.png" />
+                </image>
+            </ImageView>
+            <ImageView fitHeight="61.0" fitWidth="53.0" pickOnBounds="true" preserveRatio="true">
+                <image>
+                    <Image url="@alienPink.png" />
+                </image>
+            </ImageView>
+            <ImageView fitHeight="44.0" fitWidth="53.0" pickOnBounds="true" preserveRatio="true" GridPane.columnIndex="7" GridPane.rowIndex="3">
+                <image>
+                    <Image url="@flower1.png" />
+                </image>
+            </ImageView>
+            <ImageView fitHeight="44.0" fitWidth="53.0" pickOnBounds="true" preserveRatio="true" GridPane.columnIndex="12" GridPane.rowIndex="9">
+                <image>
+                    <Image url="@flower1.png" />
+                </image>
+            </ImageView>
+            <ImageView fitHeight="44.0" fitWidth="53.0" pickOnBounds="true" preserveRatio="true" GridPane.columnIndex="5" GridPane.rowIndex="12">
+                <image>
+                    <Image url="@flower1.png" />
+                </image>
+            </ImageView>
+            <ImageView fitHeight="44.0" fitWidth="53.0" pickOnBounds="true" preserveRatio="true" GridPane.columnIndex="14" GridPane.rowIndex="5">
+                <image>
+                    <Image url="@flower1.png" />
+                </image>
+            </ImageView>
+            <ImageView fitHeight="44.0" fitWidth="53.0" pickOnBounds="true" preserveRatio="true" GridPane.columnIndex="15">
+                <image>
+                    <Image url="@flower2.png" />
+                </image>
+            </ImageView>
+            <ImageView fitHeight="44.0" fitWidth="53.0" pickOnBounds="true" preserveRatio="true" GridPane.columnIndex="8" GridPane.rowIndex="9">
+                <image>
+                    <Image url="@flower2.png" />
+                </image>
+            </ImageView>
+            <ImageView fitHeight="44.0" fitWidth="53.0" nodeOrientation="RIGHT_TO_LEFT" pickOnBounds="true" preserveRatio="true" GridPane.columnIndex="17" GridPane.rowIndex="8">
+                <image>
+                    <Image url="@flower2.png" />
+                </image>
+            </ImageView>
+            <ImageView fitHeight="44.0" fitWidth="53.0" pickOnBounds="true" preserveRatio="true" GridPane.rowIndex="8">
+                <image>
+                    <Image url="@flower2.png" />
+                </image>
+            </ImageView>
+            <ImageView fitHeight="48.0" fitWidth="58.0" pickOnBounds="true" preserveRatio="true" GridPane.columnIndex="14" GridPane.rowIndex="10">
+                <image>
+                    <Image url="@tree4.png" />
+                </image>
+            </ImageView>
+            <ImageView fitHeight="76.0" fitWidth="68.0" nodeOrientation="RIGHT_TO_LEFT" pickOnBounds="true" preserveRatio="true" GridPane.columnIndex="4" GridPane.rowIndex="2">
+                <image>
+                    <Image url="@tree4.png" />
+                </image>
+            </ImageView>
+            <ImageView fitHeight="50.0" fitWidth="70.0" pickOnBounds="true" preserveRatio="true" GridPane.columnIndex="11" GridPane.rowIndex="7">
+                <image>
+                    <Image url="@tree5.png" />
+                </image>
+            </ImageView>
+            <ImageView fitHeight="75.0" fitWidth="73.0" pickOnBounds="true" preserveRatio="true" GridPane.rowIndex="11">
+                <image>
+                    <Image url="@greenTile3.png" />
+                </image>
+            </ImageView>
+            <ImageView fitHeight="63.0" fitWidth="55.0" pickOnBounds="true" preserveRatio="true" translateX="10.0" translateY="-5.0" GridPane.columnIndex="2" GridPane.rowIndex="10">
+                <image>
+                    <Image url="@fish1.png" />
+                </image>
+            </ImageView>
+            <ImageView fitHeight="132.0" fitWidth="54.0" pickOnBounds="true" preserveRatio="true" GridPane.columnIndex="2" GridPane.rowIndex="5">
+                <image>
+                    <Image url="@tree9.png" />
+                </image>
+            </ImageView>
+            <ImageView fitHeight="113.0" fitWidth="71.0" pickOnBounds="true" preserveRatio="true" GridPane.columnIndex="14" GridPane.rowIndex="8">
+                <image>
+                    <Image url="@tree8.png" />
+                </image>
+            </ImageView>
+            <ImageView fitHeight="109.0" fitWidth="50.0" pickOnBounds="true" preserveRatio="true" GridPane.columnIndex="17" GridPane.rowIndex="3">
+                <image>
+                    <Image url="@tree7.png" />
+                </image>
+            </ImageView>
+            <ImageView fitHeight="90.0" fitWidth="54.0" pickOnBounds="true" preserveRatio="true" GridPane.columnIndex="3" GridPane.rowIndex="7">
+                <image>
+                    <Image url="@tree10.png" />
+                </image>
+            </ImageView>
+            <ImageView fitHeight="39.0" fitWidth="39.0" nodeOrientation="RIGHT_TO_LEFT" pickOnBounds="true" preserveRatio="true" GridPane.columnIndex="6">
+                <image>
+                    <Image url="@greenTile1.png" />
+                </image>
+            </ImageView>
+            </children>
+        </GridPane>
+        <VBox alignment="TOP_CENTER" layoutX="903.0" prefHeight="650.0" prefWidth="293.0">
+            <children>
+                <ListView fx:id="updateWindow" prefHeight="647.0" prefWidth="287.0">
+                    <VBox.margin>
+                        <Insets />
+                    </VBox.margin>
+                </ListView>
+            </children>
+        </VBox>
+    </children>
+</AnchorPane>

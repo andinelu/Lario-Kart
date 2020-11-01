@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<AnchorPane fx:id="rootPane" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="500.0" prefWidth="800.0" styleClass="background" stylesheets="@styles.css" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1">
+    <children>
+        <BorderPane layoutY="7.0" prefHeight="500.0" prefWidth="800.0" >
+            <center>
+                <VBox alignment="TOP_CENTER" maxHeight="400.0" maxWidth="400.0" prefHeight="200.0" prefWidth="300.0" spacing="50.0" BorderPane.alignment="CENTER">
+                    <children>
+                        <TextField fx:id="username" maxWidth="300.0" promptText="username" style="-fx-background-color: #D1D1D1;" />
+                        <PasswordField fx:id="initial" maxWidth="300.0" promptText="password" style="-fx-background-color: #D1D1D1;" />
+                        <PasswordField fx:id="repeat" maxWidth="300.0" promptText="repeat password" style="-fx-background-color: #D1D1D1;" />
+                        <Button id="button" fx:id="confirmButton" alignment="CENTER" defaultButton="true" mnemonicParsing="false" onAction="#confirmButtonPressed" prefHeight="50.0" prefWidth="200.0" text="Confirm" textAlignment="CENTER" textFill="WHITE">
+                            <VBox.margin>
+                                <Insets top="50.0" />
+                            </VBox.margin></Button>
+                    </children>
+                </VBox>
+            </center>
+            <top>
+                <Button id="button" fx:id="backButton" alignment="CENTER" mnemonicParsing="false" onAction="#backButtonPressed" text="Back" textAlignment="CENTER" textFill="WHITE" BorderPane.alignment="TOP_LEFT">
+                    <BorderPane.margin>
+                        <Insets left="10.0" top="10.0" />
+                    </BorderPane.margin>
+                </Button>
+            </top>
+        </BorderPane>
+    </children>
+</AnchorPane>

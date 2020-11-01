@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.text.*?>
+<?import javafx.geometry.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<AnchorPane fx:id="rootPane" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="500.0" prefWidth="800.0" stylesheets="@styles.css" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1">
+    <children>
+        <BorderPane prefHeight="500.0" prefWidth="800.0">
+            <top>
+                <Button fx:id="backButton" cancelButton="true" mnemonicParsing="false" onAction="#backButtonPressed" text="Back" textFill="WHITE" BorderPane.alignment="TOP_LEFT">
+                    <BorderPane.margin>
+                        <Insets left="10.0" top="10.0" />
+                    </BorderPane.margin>
+                </Button>
+            </top>
+            <center>
+                <VBox alignment="TOP_CENTER" maxWidth="600.0" prefHeight="456.0" prefWidth="636.0" BorderPane.alignment="CENTER">
+                    <children>
+                        <Text fill="#2f2f2f" strokeType="OUTSIDE" strokeWidth="0.0" text="Highscore">
+                            <font>
+                                <Font size="44.0" />
+                            </font>
+                        </Text>
+                        <TableView fx:id="tableView" maxWidth="490.0" prefHeight="287.0" prefWidth="490.0">
+                            <columns>
+                                <TableColumn fx:id="username" editable="false" prefWidth="294.0" sortType="DESCENDING" text="Username" />
+                                <TableColumn fx:id="gameswon" editable="false" prefWidth="194.0" sortType="DESCENDING" text="Games won" />
+                            </columns>
+                            <VBox.margin>
+                                <Insets top="50.0" />
+                            </VBox.margin>
+                        </TableView>
+                    </children>
+                </VBox>
+            </center>
+        </BorderPane>
+    </children>
+</AnchorPane>

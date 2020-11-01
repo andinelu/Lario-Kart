@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.text.*?>
+<?import javafx.geometry.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<AnchorPane fx:id="rootPane" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="500.0" prefWidth="800.0" stylesheets="@styles.css" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1">
+    <children>
+        <BorderPane prefHeight="500.0" prefWidth="800.0">
+            <center>
+                <VBox alignment="TOP_CENTER" maxHeight="400.0" maxWidth="400.0" prefHeight="200.0" prefWidth="200.0" BorderPane.alignment="CENTER">
+                    <BorderPane.margin>
+                        <Insets top="20.0" />
+                    </BorderPane.margin>
+                    <children>
+                        <Text fill="#414145" strokeType="OUTSIDE" strokeWidth="0.0" text="Statistics">
+                            <font>
+                                <Font name="Calibri" size="48.0" />
+                            </font>
+                        </Text>
+                        <HBox prefHeight="50.0" prefWidth="200.0">
+                            <children>
+                                <Text fill="WHITE" strokeType="OUTSIDE" strokeWidth="0.0" text="Games played: ">
+                                    <font>
+                                        <Font name="Calibri" size="25.0" />
+                                    </font>
+                                </Text>
+                                <Text fx:id="gamesPlayed" fill="WHITE" strokeType="OUTSIDE" strokeWidth="0.0">
+                                    <HBox.margin>
+                                        <Insets left="10.0" />
+                                    </HBox.margin>
+                                    <font>
+                                        <Font name="Calibri" size="25.0" />
+                                    </font>
+                                </Text>
+                            </children>
+                     <VBox.margin>
+                        <Insets top="40.0" />
+                     </VBox.margin>
+                        </HBox>
+                        <HBox prefHeight="50.0" prefWidth="200.0">
+                            <children>
+                                <Text fill="WHITE" strokeType="OUTSIDE" strokeWidth="0.0" text="Games won: ">
+                                    <font>
+                                        <Font name="Calibri" size="25.0" />
+                                    </font>
+                                </Text>
+                                <Text fx:id="gamesWon" fill="WHITE" strokeType="OUTSIDE" strokeWidth="0.0">
+                                    <HBox.margin>
+                                        <Insets left="35.0" />
+                                    </HBox.margin>
+                                    <font>
+                                        <Font name="Calibri" size="25.0" />
+                                    </font>
+                                </Text>
+                            </children>
+                        </HBox>
+                        <HBox prefHeight="50.0" prefWidth="200.0">
+                            <children>
+                                <Text fill="WHITE" strokeType="OUTSIDE" strokeWidth="0.0" text="Win%: ">
+                                    <font>
+                                        <Font name="Calibri" size="25.0" />
+                                    </font>
+                                </Text>
+                                <Text fx:id="winp" fill="WHITE" strokeType="OUTSIDE" strokeWidth="0.0">
+                                    <font>
+                                        <Font name="Calibri" size="25.0" />
+                                    </font>
+                                    <HBox.margin>
+                                        <Insets left="95.0" />
+                                    </HBox.margin>
+                                </Text>
+                            </children>
+                        </HBox>
+                    </children>
+                </VBox>
+            </center>
+            <top>
+                <Button id="button" fx:id="backButton" alignment="CENTER" cancelButton="true" mnemonicParsing="false" onAction="#backButtonPressed" text="Back" textAlignment="CENTER" textFill="WHITE" BorderPane.alignment="TOP_LEFT">
+                    <BorderPane.margin>
+                        <Insets left="10.0" top="10.0" />
+                    </BorderPane.margin>
+                </Button>
+            </top>
+        </BorderPane>
+    </children>
+</AnchorPane>

@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.text.*?>
+<?import javafx.geometry.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<AnchorPane fx:id="rootPane" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="500.0" prefWidth="800.0" styleClass="background" stylesheets="@styles.css" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" >
+    <children>
+        <BorderPane layoutY="7.0" prefHeight="500.0" prefWidth="800.0" >
+            <center>
+                <VBox alignment="TOP_CENTER" maxHeight="400.0" maxWidth="400.0" prefHeight="200.0" prefWidth="300.0" spacing="30.0" BorderPane.alignment="CENTER">
+                    <children>
+                        <Text fill="#353536" strokeType="OUTSIDE" strokeWidth="0.0" text="Login">
+                            <font>
+                                <Font name="Calibri" size="48.0" />
+                            </font>
+                        </Text>
+                        <TextField fx:id="username" maxWidth="300.0" onAction="#loginButtonPressed" promptText="username" style="-fx-background-color: #D1D1D1;" />
+                        <Text fx:id="message" fill="#d71414" onInputMethodTextChanged="#loginButtonPressed" strokeType="OUTSIDE" strokeWidth="0.0">
+                            <font>
+                                <Font name="Calibri" size="24.0" />
+                            </font>
+                        </Text>
+                        <PasswordField fx:id="password" maxWidth="300.0" onAction="#loginButtonPressed" promptText="password" style="-fx-background-color: #D1D1D1;">
+                            <VBox.margin>
+                                <Insets />
+                            </VBox.margin></PasswordField>
+                        <Button id="button" fx:id="loginButton" alignment="CENTER" defaultButton="true" mnemonicParsing="false" onAction="#loginButtonPressed" prefHeight="50.0" prefWidth="200.0" text="Login" textFill="WHITE">
+                            <VBox.margin>
+                                <Insets top="40.0" />
+                            </VBox.margin></Button>
+                    </children>
+                </VBox>
+            </center>
+            <top>
+                <Button id="button" fx:id="backButton" alignment="CENTER" cancelButton="true" mnemonicParsing="false" onAction="#backButtonPressed" text="Back" textFill="WHITE" BorderPane.alignment="TOP_LEFT">
+                    <BorderPane.margin>
+                        <Insets left="10.0" top="10.0" />
+                    </BorderPane.margin>
+                </Button>
+            </top>
+        </BorderPane>
+    </children>
+</AnchorPane>

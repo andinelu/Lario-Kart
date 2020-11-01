@@ -1,0 +1,15 @@
+#Don't track content of these folders
+.idea/
+out/
+
+#Compiled source#
+#################
+*.iml
+
+#Properties#
+############
+*.properties
+
+#META-INT#
+##########
+src/main/resources/META-INF/

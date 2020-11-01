@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.*?>
+<?import javafx.scene.text.*?>
+<?import javafx.scene.control.*?>
+<?import java.lang.*?>
+<?import javafx.scene.layout.*?>
+
+<VBox alignment="CENTER" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="233.0" prefWidth="406.0" spacing="10.0" styleClass="background" stylesheets="@styles.css" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1">
+    <children>
+        <Text fill="WHITE" strokeType="OUTSIDE" strokeWidth="0.0" text="Please enter password">
+            <font>
+                <Font size="23.0" />
+            </font>
+        </Text>
+        <HBox alignment="CENTER" />
+        <HBox alignment="CENTER">
+            <children>
+                <Label prefHeight="27.0" prefWidth="102.0" text="Password" textFill="WHITE" />
+                <PasswordField fx:id="password" promptText="*********" />
+            </children>
+        </HBox>
+        <Text fx:id="message" fill="#b22d2d" strokeType="OUTSIDE" strokeWidth="0.0" />
+        <HBox alignment="CENTER">
+            <children>
+                <Button fx:id="connectBtn" onAction="#passwordEntered" defaultButton="true" mnemonicParsing="false" prefHeight="49.0" prefWidth="128.0" text="Connect" />
+            </children>
+        </HBox>
+    </children>
+    <padding>
+        <Insets bottom="20.0" left="20.0" right="20.0" top="20.0" />
+    </padding>
+</VBox>

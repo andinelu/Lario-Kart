@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<AnchorPane fx:id="rootPane" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="500.0" prefWidth="800.0" styleClass="background" stylesheets="@styles.css" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1">
+    <children>
+        <VBox alignment="TOP_CENTER" layoutX="250.0" layoutY="-1.0" prefHeight="500.0" prefWidth="300.0" spacing="30.0">
+            <children>
+                <Button id="button" fx:id="playButton" alignment="CENTER" contentDisplay="CENTER" defaultButton="true" maxHeight="50.0" mnemonicParsing="false" onAction="#playButtonPressed" prefHeight="50.0" prefWidth="210.0" text="Play" textAlignment="CENTER" textFill="WHITE" />
+                <Button id="button" fx:id="profileButton" alignment="CENTER" maxWidth="150.0" mnemonicParsing="false" onAction="#statisticsButtonPressed" prefHeight="40.0" prefWidth="150.0" text="Personal stats" textFill="WHITE" />
+                <Button id="button" fx:id="highscoreButton" alignment="CENTER" maxWidth="150.0" mnemonicParsing="false" onAction="#highscoreButtonPressed" prefHeight="40.0" text="Highscore" textFill="WHITE" />
+                <Button id="button" fx:id="logoutButton" alignment="CENTER" maxWidth="150.0" mnemonicParsing="false" onAction="#logoutButtonPressed" prefHeight="40.0" text="Logout" textFill="WHITE">
+                    <VBox.margin>
+                        <Insets top="80.0" />
+                    </VBox.margin>
+                </Button>
+                <Button id="button" fx:id="exitButton" alignment="CENTER" cancelButton="true" mnemonicParsing="false" onAction="#closeButtonAction" prefHeight="40.0" prefWidth="150.0" text="Exit" textFill="WHITE">
+                    <VBox.margin>
+                        <Insets />
+                    </VBox.margin>
+                </Button>
+            </children>
+            <padding>
+                <Insets top="60.0" />
+            </padding>
+        </VBox>
+    </children>
+</AnchorPane>

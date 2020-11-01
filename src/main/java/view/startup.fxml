@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.*?>
+<?import javafx.geometry.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<AnchorPane fx:id="rootPane" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="500.0" prefWidth="800.0" stylesheets="@styles.css" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1">
+    <children>
+        <VBox alignment="TOP_CENTER" layoutX="250.0" layoutY="-1.0" prefHeight="500.0" prefWidth="300.0" spacing="60.0">
+            <children>
+                <Button id="button" fx:id="loginButton" alignment="CENTER" contentDisplay="CENTER" mnemonicParsing="false" onAction="#loginButtonPressed" prefHeight="60.0" prefWidth="250.0" text="Login" textAlignment="CENTER" textFill="WHITE">
+                    <cursor>
+                        <Cursor fx:constant="HAND" />
+                    </cursor></Button>
+                <Button id="button" fx:id="registerButton" alignment="CENTER" contentDisplay="CENTER" mnemonicParsing="false" onAction="#registerButtonPressed" prefHeight="50.0" prefWidth="200.0" stylesheets="@styles.css" text="Register" textAlignment="CENTER" textFill="WHITE">
+                    <cursor>
+                        <Cursor fx:constant="HAND" />
+                    </cursor></Button>
+                <Button id="button" fx:id="exitButton" alignment="CENTER" cancelButton="true" contentDisplay="CENTER" mnemonicParsing="false" onAction="#closeButtonAction" prefHeight="50.0" prefWidth="210.0" text="Exit" textAlignment="CENTER" textFill="WHITE">
+                    <VBox.margin>
+                        <Insets top="80.0" />
+                    </VBox.margin>
+                    <cursor>
+                        <Cursor fx:constant="HAND" />
+                    </cursor>
+                </Button>
+            </children>
+            <padding>
+                <Insets top="80.0" />
+            </padding>
+        </VBox>
+    </children>
+</AnchorPane>

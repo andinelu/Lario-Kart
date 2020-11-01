@@ -1,0 +1,128 @@
+.background {
+    -fx-background-color: #63646A;
+}
+
+#rootPane{
+    -fx-background-image: url("background.png");
+    -fx-background-repeat: stretch;
+    -fx-background-size: 800 500;
+    -fx-background-position: center center;
+    -fx-effect: dropshadow(three-pass-box, black, 30, 0.5, 0, 0);
+}
+
+.button {
+    -fx-font-family: 'Trebuchet MS', Helvetica, sans-serif;
+    -fx-font-size: 15;
+    -fx-font-weight: normal;
+    -fx-background-color: #0B2155;
+    -fx-background-radius: 15;
+    -fx-text-fill: white;
+    -fx-border-radius: 15;
+    -fx-border-width: 1;
+    -fx-effect: dropshadow(three-pass-box, rgba(0,0,0,0.8), 10, 0, 0, 0);
+}
+
+.button:hover {
+    -fx-font-weight: normal;
+    -fx-background-color: #011239;
+    -fx-background-radius: 15;
+    -fx-font-size: 15;
+    -fx-text-fill: white;
+    -fx-border-radius: 15;
+    -fx-border-width: 2;
+}
+
+.button:pressed{
+    -fx-font-weight: normal;
+    -fx-background-color: #011239;
+    -fx-background-radius: 15;
+    -fx-font-size: 15;
+    -fx-text-fill: white;
+    -fx-border-radius: 15;
+    -fx-border-width: 2;
+}
+
+.toggle-button {
+    -fx-font-family: 'Trebuchet MS', Helvetica, sans-serif;
+    -fx-font-size: 14;
+    -fx-font-weight: normal;
+    -fx-background-color: #0B2155;
+    -fx-text-fill: white;
+    -fx-effect: dropshadow(three-pass-box, rgba(0,0,0,0.8), 10, 0, 0, 0);
+}
+
+.toggle-button:hover {
+    -fx-font-weight: normal;
+    -fx-background-color: #011239;
+    -fx-font-size: 14;
+    -fx-text-fill: white;
+}
+
+.list-view {
+    -fx-control-inner-background: #9DBF7B;
+    -fx-effect: dropshadow(three-pass-box, rgba(0,0,0,0.8), 10, 0, 0, 0);
+}
+
+.list-cell:focused {
+    -fx-background-color: #9DBF7B;
+    -fx-text-fill: black;
+}
+
+.table-view{
+    -fx-control-inner-background: #9DBF7B;
+    -fx-effect: innershadow(three-pass-box, rgba(0,0,0,0.8), 10, 0, 0, 0);
+}
+
+.text-field{
+    -fx-effect: dropshadow(three-pass-box, rgba(0,0,0,0.8), 10, 0, 0, 0);
+}
+
+.password-field{
+    -fx-effect: dropshadow(three-pass-box, rgba(0,0,0,0.8), 10, 0, 0, 0);
+}
+
+.table-view .column-header-background{
+    -fx-background-color: linear-gradient(#9DBF7B 0%, #679B33 100%);
+}
+
+.table-view .column-header-background .label{
+    -fx-background-color: transparent;
+    -fx-text-fill: black;
+}
+
+.table-view .column-header {
+    -fx-background-color: transparent;
+}
+
+.table-view .table-cell{
+    -fx-text-fill: black;
+}
+
+.table-row-cell{
+    -fx-background-color: -fx-table-cell-border-color,  #9DBF7B;
+    -fx-background-insets: 0, 0 0 1 0;
+    -fx-padding: 0.0em;
+}
+
+.table-row-cell:selected {
+    -fx-background-color: #005797;
+    -fx-background-insets: 0;
+    -fx-background-radius: 1;
+}
+.table-view {
+    -fx-table-cell-border-color: #679B33;
+}
+
+.list-view .scroll-bar:horizontal .increment-arrow,
+.list-view .scroll-bar:horizontal .decrement-arrow,
+.list-view .scroll-bar:horizontal .increment-button,
+.list-view .scroll-bar:horizontal .decrement-button {
+    -fx-padding:0;
+}
+
+.table-view .scroll-bar:horizontal .increment-arrow,
+.table-view .scroll-bar:horizontal .decrement-arrow,
+.table-view .scroll-bar:horizontal .increment-button,
+.table-view .scroll-bar:horizontal .decrement-button {
+    -fx-padding:0;
+}

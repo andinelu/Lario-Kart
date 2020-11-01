@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.text.*?>
+<?import javafx.geometry.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<AnchorPane fx:id="rootPane" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="500.0" prefWidth="800.0" stylesheets="@styles.css" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" > <!--fx:controller="sample.CreateLobbyController"> -->
+    <children>
+        <BorderPane layoutY="7.0" prefHeight="500.0" prefWidth="800.0" >
+            <center>
+                <VBox alignment="TOP_CENTER" maxHeight="400.0" maxWidth="400.0" prefHeight="200.0" prefWidth="300.0" spacing="30.0" BorderPane.alignment="CENTER">
+                    <children>
+                        <Text fill="#414145" strokeType="OUTSIDE" strokeWidth="0.0" text="Create Lobby">
+                            <font>
+                                <Font size="36.0" />
+                            </font>
+                        </Text>
+                        <TextField fx:id="lobbyName" maxWidth="300.0" promptText="lobby name" style="-fx-background-color: #D1D1D1;" />
+                        <CheckBox fx:id="privateCheckBox" mnemonicParsing="false" onAction="#privateChecked" text="Private">
+                            <VBox.margin>
+                                <Insets right="200.0" top="10.0" />
+                            </VBox.margin>
+                        </CheckBox>
+                        <PasswordField fx:id="password" disable="true" editable="false" maxWidth="300.0" promptText="password" style="-fx-background-color: #D1D1D1;" />
+                        <Spinner fx:id="spinner" BorderPane.alignment="CENTER">
+                            <valueFactory>
+                                <SpinnerValueFactory.IntegerSpinnerValueFactory max="4" min="2" />
+                            </valueFactory>
+                        </Spinner>
+                        <Button fx:id="createButton" alignment="CENTER" defaultButton="true" mnemonicParsing="false" onAction="#createButtonPressed" prefHeight="50.0" prefWidth="200.0" text="Create" textFill="WHITE">
+                            <VBox.margin>
+                                <Insets top="20.0" />
+                            </VBox.margin></Button>
+                    </children>
+                </VBox>
+            </center>
+            <top>
+                <Button fx:id="backButton" alignment="CENTER" cancelButton="true" mnemonicParsing="false" onAction="#backButtonPressed" text="Back" textFill="WHITE" BorderPane.alignment="TOP_LEFT">
+                    <BorderPane.margin>
+                        <Insets left="10.0" top="10.0" />
+                    </BorderPane.margin>
+                </Button>
+            </top>
+        </BorderPane>
+    </children>
+</AnchorPane>

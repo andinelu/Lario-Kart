@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.text.*?>
+<?import javafx.scene.layout.*?>
+
+<?import javafx.scene.control.Button?>
+<AnchorPane xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" prefHeight="350.0" prefWidth="400.0" styleClass="background" stylesheets="@styles.css">
+    <children>
+        <VBox alignment="CENTER" prefHeight="350.0" prefWidth="400.0" spacing="10.0">
+            <children>
+                <Text fill="WHITE" strokeType="OUTSIDE" strokeWidth="0.0" text="Game Over!">
+                    <font>
+                        <Font size="57.0" />
+                    </font>
+                </Text>
+                <Text fx:id="first" fill="WHITE" strokeType="OUTSIDE" strokeWidth="0.0">
+                    <font>
+                        <Font size="20.0" />
+                    </font>
+                </Text>
+                <Text fx:id="second" fill="WHITE" strokeType="OUTSIDE" strokeWidth="0.0">
+                    <font>
+                        <Font size="20.0" />
+                    </font>
+                </Text>
+                <Text fx:id="third" fill="WHITE" strokeType="OUTSIDE" strokeWidth="0.0">
+                    <font>
+                        <Font size="20.0" />
+                    </font>
+                </Text>
+                <Text fx:id="fourth" fill="WHITE" strokeType="OUTSIDE" strokeWidth="0.0">
+                    <font>
+                        <Font size="20.0" />
+                    </font>
+                </Text>
+                <Button text="OK" mnemonicParsing="false" onAction="#onOKButtonClicked" prefWidth="120" prefHeight="40" />
+            </children>
+        </VBox>
+    </children>
+</AnchorPane>
